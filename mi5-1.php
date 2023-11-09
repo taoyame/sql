@@ -8,9 +8,9 @@
 <body>
     <?php
         //ファイルの代わりにデータベースを指定
-        $dsn = 'mysql:dbname=tb250400db;host=localhost';
-        $user = 'tb-250400';
-        $password = '2ypErhHaxd' ;
+        $dsn = 'mysql:dbname=データベース名;host=localhost';
+        $user = 'ユーザ名';
+        $password = 'パスワード' ;
         $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 
         //テーブル作成
